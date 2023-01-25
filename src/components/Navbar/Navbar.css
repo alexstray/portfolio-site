@@ -1,19 +1,15 @@
 .app__navbar {
     z-index: 100;
     display: block;
-    top: 0;
-    right: 0;
-    left: 0;
     min-height: 54px;
     background: var(--color-dark);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
 
 .app__navbar-container {
-    margin: 0 auto;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
-    max-width: 1240px;
     height: 80px;
 }
 
@@ -26,6 +22,8 @@
 .app__navbar-logo {
     height: 45px;
     width: 45px;
+    display: flex;
+    align-items: center;
 }
 
 .app__navbar-logo img {
@@ -119,18 +117,15 @@
     color: var(--color-primary);
 }
 
+.nav-social:hover {
+    color: var(--color-primary);
+}
+
 
 /*---------------- Media Queries ----------------*/
 
-@media screen and (max-width: 1200px) {
-    .app__navbar-container {
-        max-width: 970px;
-    }
-}
-
 @media screen and (max-width: 992px) {
     .app__navbar-container {
-        max-width: 750px;
         height: 54px;
     }
     .app__navbar-logo {

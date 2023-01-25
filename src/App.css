@@ -1,3 +1,24 @@
+.container__size {
+        max-width: 1240px;
+        margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+        .container__size {
+            max-width: 970px;
+        }
+    }
+    
+    @media screen and (max-width: 992px) {
+        .container__size {
+            max-width: 750px;
+        }
+    }
+
+
+
+
+
 .scale-up-ver-top {
     -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -67,3 +88,8 @@
                   transform-origin: 100% 50%;
         }
       }
+
+
+.orange__gradient {
+        background: -webkit-linear-gradient(left, var(--color-secondary), var(--color-secondary-variant));
+}

@@ -1,5 +1,7 @@
 import Navbar from './Navbar/Navbar';
+import Hero from './Hero/Hero';
 
 export {
-    Navbar
+    Navbar,
+    Hero
 }
