@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Hero } from './components';
+import { Navbar, Hero, Gallery } from './components';
 
 const App = () => {
   return (
-    <div style={{height: '100vh'}}>
-      <Navbar />
-      <Hero />
+    <div>
+      <div style={{height: '100vh'}}>
+        <Navbar />
+        <Hero />
+        <Gallery />
+      </div>
     </div>
   )
 }
