@@ -8,12 +8,14 @@ const ProjectCard =({pcard: { imgUrl, title, tags, github, preview } }) => (
         <img src={imgUrl} alt="Project Img" />
         <div className='app__project-card_content'>
             <h4>{title}</h4>
-            <div className='app__project-card_btns'>
-                <a href={github} target='_blank' rel='noreferrer'>Github</a>
-                <a href={preview} target='_blank' rel='noreferrer'>Preview</a>
-            </div>
-            <div className='app__project-card_tags'>
-                <p>{tags}</p>
+            <div>
+                <div className='app__project-card_btns'>
+                    <a href={github} target='_blank' rel='noreferrer'>Github</a>
+                    <a href={preview} target='_blank' rel='noreferrer'>Preview</a>
+                </div>
+                <div className='app__project-card_tags'>
+                    <p>{tags}</p>
+                </div>
             </div>
         </div>
     </div>

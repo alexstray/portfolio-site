@@ -2,6 +2,13 @@ import images from './images';
 
 const portfolioItems = [
     {
+        imgUrl: images.P8,
+        title: 'Los Angeles Mountains - Skills Test',
+        tags: 'HTML | CSS | Javascript | React',
+        github: 'https://github.com/alexstray/skill-test',
+        preview: 'https://alexstray.github.io/skill-test/',
+    },
+    {
         imgUrl: images.P7,
         title: 'HooBank | Modern Banking',
         tags: 'HTML | Tailwind | JavaScript | React',
