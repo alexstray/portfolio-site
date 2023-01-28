@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.4bc953f3.css",
+    "main.js": "/portfolio-site/static/js/main.b79ea1c7.js",
+    "static/media/PortfolioItem1.jpg": "/portfolio-site/static/media/PortfolioItem1.7fc8966d3395bd3186f5.jpg",
+    "static/media/Gallery02.jpg": "/portfolio-site/static/media/Gallery02.47db426680149e1a9d34.jpg",
+    "static/media/PortfolioItem7.png": "/portfolio-site/static/media/PortfolioItem7.b3924d6a4b8b19ef9de9.png",
+    "static/media/Ire02.png": "/portfolio-site/static/media/Ire02.81679ff04fa2b4dc2336.png",
+    "static/media/PortfolioItem5.png": "/portfolio-site/static/media/PortfolioItem5.ab0eb367561796e91532.png",
+    "static/media/PortfolioItem6.png": "/portfolio-site/static/media/PortfolioItem6.f2cbffe3049d6f91e0df.png",
+    "static/media/PortfolioItem3.jpg": "/portfolio-site/static/media/PortfolioItem3.cf823fe5f2ca7153f844.jpg",
+    "static/media/Gallery01.jpg": "/portfolio-site/static/media/Gallery01.c968e391408fb9f1cdae.jpg",
+    "static/media/Gallery03.jpg": "/portfolio-site/static/media/Gallery03.0d6c09c90a33dd0210f3.jpg",
+    "static/media/Myself02.jpg": "/portfolio-site/static/media/Myself02.6bdb382dce582617526d.jpg",
+    "static/media/Gallery05.jpg": "/portfolio-site/static/media/Gallery05.3b0071a9b6e1e1b267a1.jpg",
+    "static/media/PortfolioItem4.jpg": "/portfolio-site/static/media/PortfolioItem4.e7cf51518e31fb4dea04.jpg",
+    "static/media/Gallery04.jpg": "/portfolio-site/static/media/Gallery04.6cd22e935312916e9afb.jpg",
+    "static/media/PortfolioItem2.jpg": "/portfolio-site/static/media/PortfolioItem2.c821a7f67e71abddc3f0.jpg",
+    "static/media/LogoWhite.png": "/portfolio-site/static/media/LogoWhite.d0b77d4922d5328d3e5d.png",
+    "index.html": "/portfolio-site/index.html",
+    "main.4bc953f3.css.map": "/portfolio-site/static/css/main.4bc953f3.css.map",
+    "main.b79ea1c7.js.map": "/portfolio-site/static/js/main.b79ea1c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bc953f3.css",
+    "static/js/main.b79ea1c7.js"
+  ]
+}
