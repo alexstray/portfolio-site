@@ -15,7 +15,8 @@ const Skills = () => {
           'Angular',
           'GIT',
           'GITHUB',
-          'Tailwind'
+          'Tailwind',
+          'Python'
         ];
     
         const options = {
