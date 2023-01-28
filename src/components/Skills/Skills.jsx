@@ -16,7 +16,9 @@ const Skills = () => {
           'GIT',
           'GITHUB',
           'Tailwind',
-          'Python'
+          'Python',
+          'Figma',
+          'Photoshop'
         ];
     
         const options = {
