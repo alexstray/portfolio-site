@@ -18,7 +18,7 @@ const Hero = () => {
           </h4>
         </div>
         <div className='app__hero-img'>
-          {/* <img src={images.Myself} alt="Myself" /> */}
+          <img src={images.Myself} alt="Myself" />
         </div>
         <div className='hero__space' />
       </div>
