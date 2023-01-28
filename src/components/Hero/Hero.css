@@ -1,6 +1,6 @@
 .app__hero {
     background: var(--color-primary);
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 .app__hero-container {
@@ -11,8 +11,11 @@
     height: 100%;
 }
 
-.app__hero-text h1 {
+.app__hero-text {
     flex: 1;
+}
+
+.app__hero-text h1 {
     color: var(--color-light);
     font-size: 3.5rem;
     line-height: 4rem;
