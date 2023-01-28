@@ -4,7 +4,7 @@ import { images } from '../../constants';
 
 const Hero = () => {
   return (
-    <div className='app__hero'>
+    <div className='app__hero' id='home'>
       <div className="app__hero-container container__size">
         <div className="app__hero-text">
           <h1>

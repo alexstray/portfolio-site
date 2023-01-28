@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { images } from '../../constants';
 import { RiCloseLine, RiMenuLine } from 'react-icons/ri';
 import { BsGithub, BsLinkedin, BsFillFileCodeFill } from 'react-icons/bs';
 
@@ -11,7 +10,7 @@ const Navbar = () => {
     <header role='banner' className='app__navbar'>
       <div className="app__navbar-container container__size">
         <div className="app__navbar-logo_wrapper">
-            <a href="/" className="app__navbar-logo">
+            <a href='#home' className="app__navbar-logo">
                 <BsFillFileCodeFill color='var(--color-light)' size={30} />
             </a>
         </div>

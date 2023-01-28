@@ -4,6 +4,8 @@
     min-height: 54px;
     background: var(--color-dark);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100%;
 }
 
 .app__navbar-container {

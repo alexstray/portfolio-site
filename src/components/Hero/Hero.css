@@ -1,5 +1,6 @@
 .app__hero {
     background: var(--color-primary);
+    padding-top: 2rem;
 }
 
 .app__hero-container {
@@ -33,6 +34,7 @@
     align-items: center;
     height: 25rem;
     width: 25rem;
+    margin-left: 1rem;
 }
 
 .app__hero-img img {
@@ -46,4 +48,22 @@
 
 .hero__space {
     flex: 1;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .app__hero-container {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .app__hero-img {
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem 0 2rem 0;
+    }
+    .hero__space {
+        display: none;
+    }
 }

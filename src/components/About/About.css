@@ -1,0 +1,85 @@
+.app__about {
+    background: var(--color-light);
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.app__about-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__about-img {
+    width: 100%;
+    padding-inline: max(1rem, 9vw);
+    margin: 1rem 0;
+}
+
+.app__about-img img {
+    width: 100%;
+    height: auto;
+    border-radius: max(25px, 50px);
+}
+
+.app__about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.app__about-content_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px dashed var(--color-primary);
+    padding-right: 2rem;
+
+}
+
+.app__about-content_text h2 {
+    font-size: min(10vw, 4rem);
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.app__about-content_text p {
+    font-size: min(4.5vw, 1rem);
+}
+
+.app__about-content_school {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.app__about-content_school h3 {
+    font-size: min(8vw, 2rem);
+}
+
+
+
+@media screen and (max-width: 630px) {
+    .app__about-content {
+        flex-direction: column;
+    }
+    .app__about-img {
+        flex: 0.25;
+        margin: 0;
+        padding: 0;
+    } 
+    .app__about-content_text {
+        border-right: none;
+        border-bottom: 2px dashed var(--color-subtext);
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .app__about-content_school {
+        margin: 0;
+    }
+}
