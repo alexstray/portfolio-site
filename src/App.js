@@ -1,24 +1,20 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Navbar, Hero, Gallery, Projects, Skills, About } from './components';
+import { Home, Projects, About } from './pages';
 
 const App = () => {
   return (
     <div>
-      <div style={{height: '100vh'}}>
-        <Navbar />
-        <Hero />
-        <Gallery />
-      </div>
-      <div>
-        <Projects />
-      </div>
-      <div style={{height: '100vh'}}>
-        <Skills />
-      </div>
-      <div style={{height: '100vh'}}>
-        <About />
-      </div>
+      <BrowserRouter>
+        <main>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/about' element={<About />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
     </div>
   )
 }

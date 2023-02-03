@@ -11,8 +11,10 @@ import P3 from '../assets/ProjectImgs/PortfolioItem3.jpg';
 import P4 from '../assets/ProjectImgs/PortfolioItem4.jpg';
 import P5 from '../assets/ProjectImgs/PortfolioItem5.png';
 import P6 from '../assets/ProjectImgs/PortfolioItem6.png';
-import P7 from '../assets/ProjectImgs/PortfolioItem7.png';
 import P8 from '../assets/ProjectImgs/PortfolioItem8.png';
+import HoobankPcard from '../assets/ProjectImgs/HoobankPcard.jpg';
+import YoutubeClonePcard from '../assets/ProjectImgs/YoutubeClonePcard.jpg';
+import AiImageGenPcard from '../assets/ProjectImgs/AiImageGenPcard.jpg';
 import AboutImg from '../assets/Ire02.png';
 
 
@@ -25,6 +27,9 @@ export default {
     Gallery03,
     Gallery04,
     Gallery05,
-    P1, P2, P3, P4, P5, P6, P7, P8,
+    P1, P2, P3, P4, P5, P6, P8,
+    HoobankPcard,
+    YoutubeClonePcard,
+    AiImageGenPcard,
     AboutImg
 }
