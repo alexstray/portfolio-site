@@ -6,7 +6,7 @@ import { Home, Projects, About } from './pages';
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/portfolio-site'>
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
